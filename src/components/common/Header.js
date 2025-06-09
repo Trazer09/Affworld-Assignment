@@ -43,4 +43,4 @@ const Header = () => {
   );
 };
 
-export default Header; // <-- THIS LINE IS ESSENTIAL
+export default Header; 

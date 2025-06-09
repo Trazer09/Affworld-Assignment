@@ -8,8 +8,7 @@ const LoginPage = () => {
   const { token } = useSelector((state) => state.auth);
 
   useEffect(() => {
-    // If a token is detected (i.e., user has logged in),
-    // navigate to the dashboard.
+    
     if (token) {
       navigate('/dashboard');
     }

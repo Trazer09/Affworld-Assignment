@@ -11,7 +11,6 @@ const ProductList = ({ products, onEdit, onDelete }) => {
         <tr>
           <th style={thTdStyle}>Title</th>
           <th style={thTdStyle}>Brand</th>
-          {/* This is the corrected line */}
           <th style={thTdStyle}>Price</th>
           <th style={thTdStyle}>Stock</th>
           <th style={thTdStyle}>Actions</th>

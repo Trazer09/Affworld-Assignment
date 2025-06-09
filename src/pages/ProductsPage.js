@@ -12,7 +12,7 @@ const ProductsPage = () => {
   const [productToEdit, setProductToEdit] = useState(null);
 
   useEffect(() => {
-    // Fetch products only if the list is empty
+    
     if (products.length === 0) {
       dispatch(fetchProducts());
     }
@@ -28,16 +28,10 @@ const ProductsPage = () => {
     setIsFormVisible(true);
   };
 
-//   const handleDelete = (id) => {
-//     if (window.confirm('Are you sure you want to delete this product?')) {
-//       dispatch(deleteProduct(id));
-//     }
-//   };
 
-  // in src/pages/ProductsPage.js
 
 const handleDelete = (id) => {
-  // ADD THIS LINE
+
   console.log('Attempting to delete product with ID:', id); 
 
   if (window.confirm('Are you sure you want to delete this product?')) {
