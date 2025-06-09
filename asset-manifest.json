@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Affworld-Assignment/static/css/main.e6c13ad2.css",
+    "main.js": "/Affworld-Assignment/static/js/main.1696162e.js",
+    "index.html": "/Affworld-Assignment/index.html",
+    "main.e6c13ad2.css.map": "/Affworld-Assignment/static/css/main.e6c13ad2.css.map",
+    "main.1696162e.js.map": "/Affworld-Assignment/static/js/main.1696162e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1696162e.js"
+  ]
+}
